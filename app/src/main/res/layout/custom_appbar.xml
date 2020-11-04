@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<com.google.android.material.appbar.AppBarLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/appbar"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="80sp"-->
+<!--    android:background="@drawable/gradient_toolbar"-->
+<!--    android:gravity="bottom">-->
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize" />-->
+
+<!--</com.google.android.material.appbar.AppBarLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:background="@drawable/gradient_toolbar"
+    android:gravity="bottom"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/toolbar"
+        />
+
+</LinearLayout>
